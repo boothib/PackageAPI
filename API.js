@@ -146,4 +146,3 @@ app.post("/api/run", (req, res) => {
 app.listen(PORT, () => {
     console.log(`GymProject API running at http://localhost:${PORT}`);
 });
-s.close();
