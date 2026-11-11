@@ -1,0 +1,14 @@
+{
+  "name": "gymproject",
+  "version": "1.0.0",
+  "description": "Gymnasium Reinforcement Learning API",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "node api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
