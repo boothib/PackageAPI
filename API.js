@@ -1,3 +1,4 @@
+// API calls for Gym
 const express = require("express");
 const cors = require("cors");
 const { spawn } = require("child_process");
@@ -146,4 +147,3 @@ app.post("/api/run", (req, res) => {
 app.listen(PORT, () => {
     console.log(`GymProject API running at http://localhost:${PORT}`);
 });
-s.close();
